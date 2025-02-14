@@ -68,19 +68,44 @@ A Tree is a widely used non-linear data structure that represents a hierarchical
 
 >> Cryptography (Merkle Trees in Blockchain)
 
-### Example: Binary Tree in Python
+### Example: Binary Tree
 
 ```
-class TreeNode:
-    def __init__(self, val=0, left=None, right=None):
-        self.val = val
-        self.left = left
-        self.right = right
+// Definition for a binary tree node
+class TreeNode {
+    int val;
+    TreeNode left, right;
 
-def inorder_traversal(root):
-    if root is None:
-        return []
-    return inorder_traversal(root.left) + [root.val] + inorder_traversal(root.right)
+    TreeNode(int val) {
+        this.val = val;
+        this.left = null;
+        this.right = null;
+    }
+}
+
+public class BinaryTreeInorder {
+    // Recursive inorder traversal
+    public static void inorderTraversal(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        inorderTraversal(root.left);
+        System.out.print(root.val + " ");
+        inorderTraversal(root.right);
+    }
+
+    public static void main(String[] args) {
+        // Example: Constructing a Binary Tree
+        TreeNode root = new TreeNode(1);
+        root.right = new TreeNode(2);
+        root.right.left = new TreeNode(3);
+
+        // Perform inorder traversal
+        System.out.print("Inorder Traversal: ");
+        inorderTraversal(root);
+    }
+}
+
 ```
 
 # Example Usage
