@@ -1,6 +1,6 @@
 # Exp-5-Tree Data Structure
 
-#Introduction
+# Introduction
 
 A Tree is a widely used non-linear data structure that represents a hierarchical relationship between elements. It consists of nodes connected by edges, with a single node as the root.
 
@@ -22,7 +22,7 @@ A Tree is a widely used non-linear data structure that represents a hierarchical
 
 >> Degree: The number of children a node has.
 
-###Types of Trees
+### Types of Trees
 
 >> Binary Tree: A tree where each node has at most two children.
 
@@ -36,11 +36,11 @@ A Tree is a widely used non-linear data structure that represents a hierarchical
 
 >> Heap: A tree-based data structure satisfying the heap property (Max Heap, Min Heap).
 
-T>> rie (Prefix Tree): A tree used for searching words efficiently.
+>> Trie (Prefix Tree): A tree used for searching words efficiently.
 
 >> N-ary Tree: A tree where each node can have at most N children.
 
-####Tree Traversal Methods
+#### Tree Traversal Methods
 
 >> Depth-First Search (DFS):
 
@@ -52,7 +52,7 @@ T>> rie (Prefix Tree): A tree used for searching words efficiently.
 
 >> Breadth-First Search (BFS):
 
-L>> evel Order Traversal: Traverses each level from left to right.
+>> Level Order Traversal: Traverses each level from left to right.
 
 ##### Applications of Trees
 
