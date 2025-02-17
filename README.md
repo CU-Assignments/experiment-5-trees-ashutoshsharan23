@@ -115,3 +115,7 @@ root.right.left = TreeNode(3)
 print(inorder_traversal(root))  # Output: [1, 3, 2]
 
 
+These are the problem which are releated to tree's are solved in the given expirement 🚀🚀🚀: -
+
+>> 1. Maximum Depth - https://leetcode.com/problems/maximum-depth-of-binary-tree/
+>> 2. Binary Tree - https://leetcode.com/problems/binary-tree-inorder-traversal/
